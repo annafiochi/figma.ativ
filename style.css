@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+  }
+
+  .leftHeader {
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+            background-color: yellow;
+ }
+
+ .rightHeader {
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+            background-color: red;
+}
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
